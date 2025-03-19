@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.diceContainer {
+  display: flex;
+  position: relative;
+}
+
+.redDice {
+  width: 600px;
+  display: flex;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+  justify-content: space-around;
+}
+
+#playerOne {
+  color: white;
+  font-size: larger;
+}
+
+#buttonOne {
+  width: 130px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  border-radius: 9999px;
+}
+
+.images {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.blueDice {
+  width: 600px;
+  display: flex;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: space-around;
+}
+
+#playerTwo {
+  color: white;
+  font-size: larger;
+}
+
+#buttonTwo {
+  width: 130px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  border-radius: 9999px;
+}
+
+.modal {
+  top: 400px;
+  right: 390px;
+  width: 200px;
+  display: none;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-color: bisque;
+  transform: translate(-50%, -50%);
+}
+
+.open-modal {
+  display: block;
+}
+
+#star {
+  width: 130px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  border-radius: 9999px;
+}
