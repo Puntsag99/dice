@@ -28,8 +28,6 @@ playerOnebut.addEventListener("click", () => {
     playerOneScore = index;
     playerOneRolled = true;
   }
-
-  checkWinner();
 });
 
 playerTwobut.addEventListener("click", () => {
